@@ -22,7 +22,7 @@ public static void main(String[] args) throws EncryptedDocumentException, IOExce
 	 System.out.print(a+"+"+b);
 	 double c=a+b;
 	 System.out.println(" = "+c);
-	 s1.get(2,4).
+	 s1.getRow(2).getCell(4).setCellValue(0);
 	 s1.getRow(5).getCell(7).setCellValue(0);
 }
 }

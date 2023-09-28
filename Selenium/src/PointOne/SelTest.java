@@ -26,7 +26,7 @@ public class SelTest {
 		{
 			System.out.println("its not exactlty equals");
 		}
-		else if (a.equals("Google")) {
+		else if (a.equals(b)) {
 		System.out.println("its exactlty equals");
 		}
 		else 
