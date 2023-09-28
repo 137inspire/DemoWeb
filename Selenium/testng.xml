@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="classes" name="Suite">
+	<groups><run>
+		<include name="searchEngine"></include>
+	</run></groups>
+  <test thread-count="2" parallel="classes" name="Test">
+    <classes>
+      <class name="testng.TC_google_4"/>
+      <class name="testng.TC_Oracle_001"/>
+      <class name="testng.TC_adobe_3"/>
+      <class name="testng.TC_Selenium_2"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
